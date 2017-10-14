@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>EncodeChat  </title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Keywords" content="HTML,CSS,JS, Diseño, Desarrollo, programando, junior developer, uruguay ">
+	<meta name="Description" content="Programador Junior Alvaro Mesa">
+	<meta name="Author" content="Alvaro Mesa alvaromesa19@gmail.com">
+	<meta name="Copyright" content="Derechos reservados">
+	<meta name="robots" content="index, follow">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+ 
+</head>
+<body>
+
+<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#datosNavbar">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>	
+					<span class="icon-bar"></span>	
+                </button>
+               
+                <a href="#" class="navbar-brand brand">EncodeChat</a>
+                
+			</div> 
+
+			<div class="collapse navbar-collapse" id="datosNavbar">
+				<ul class="nav navbar-nav">
+                    <li><a href="#codeIn">Enviar</a> </li>
+                    <li><a href="#codeOut">Recibir</a> </li>
+					
+				</ul>	
+			</div>
+		</nav>
+</header>
+
+<main class="container" id="contenido">
+        
+       <section id="empty" class="row clearfix"></section>
+       
+       
+       
+           <section id="Bienvenida" class="row">
+                       <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group">
+                               <div class="thumbnail">
+                                   <h3 class="list-group-item active list-group-item-heading   text-center">Chat Privado</h3>
+                                    
+                                    <div class="panel-body">
+                                            <label for="password">Password</label>
+                                            <p>Contraseña entre Emisor Receptor</p>
+                                            <input type="text"  id="password" class="form-control">
+
+                                       <form role="form" class="form-group">
+                                        <label for="pass">Encriptar</label>
+                                        <p>Ingresar mensaje a encriptar</p>
+                                        <textarea name="" id="textIn"   class="form-control"></textarea>
+                                        <input  type="button" class="btn btn-default  btn-success"  id="encodeText"  value="Encriptar">  
+                                        <input  type="reset" class="btn btn-default  btn-danger"    value="Borrar">  
+                         
+                                       </form>
+                                       <form role="form" class="form-group">
+                                                <label for="pass">DesEncriptar</label>
+                                                <p>Ingresar codigo a desencriptar</p>
+                                                <textarea name="" id="textOut"   class="form-control"></textarea>
+                                                <input  type="button"class="btn btn-default btn-success" id="desEncodeText" value="DesEncriptar" >
+                                                <input  type="reset" class="btn btn-default  btn-danger"    value="Borrar">  
+                                           </form>
+                                   </div>
+                               </div>
+                           </div>
+                       </article>
+           </section><!-- Termina Jumbotron Introducción-->
+       
+        
+        
+       
+                    
+       
+       
+       
+       
+       
+       
+       
+       </main>	
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <!--Sripts de bootstrap  y jquery  -->
+       <script type="text/javascript" src="jquery.min.js"></script>
+       <script type="text/javascript" src="bootstrap.min.js"></script>
+       <script type="text/javascript" src="app.js"></script>
+       </body>
+       </html>
